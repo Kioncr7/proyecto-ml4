@@ -1,0 +1,55 @@
+
+:root {
+    --color-dark-blue: #002244;
+    --color-text: #333;
+    --color-light-gray: #f4f4f4;
+    --color-white: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-white);
+}
+
+
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--color-text);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+.section-riesgo h2, .section-promesa h2, .section-cierre h2 {
+    color: var(--color-dark-blue);
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}

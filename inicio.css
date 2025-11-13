@@ -1,0 +1,112 @@
+
+:root {
+    --bienestar-color-principal: #004a99; /* Azul fuerte para títulos */
+    --bienestar-color-acento: #fdbb30;    /* Amarillo/Naranja de acento */
+    --bienestar-color-texto: #333;
+    --bienestar-color-fondo-claro: #ffffff;
+    --bienestar-color-alerta: #cc0000;
+    --bienestar-color-alerta-fondo: #ffeaea;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--bienestar-color-texto);
+    background-color: #f4f4f4;
+}
+
+
+.hero-image-bienestar {
+
+    background-image: url('Frame 6.png'); 
+    background-size: cover;
+    background-position: center top;
+    height: 350px;
+    width: 100%;
+}
+
+
+.content-container-bienestar {
+    max-width: 800px;
+    margin: -50px auto 40px; 
+    padding: 30px;
+    background-color: var(--bienestar-color-fondo-claro);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+.mensaje-universitario h1 {
+    color: var(--bienestar-color-principal);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.mensaje-universitario h2 {
+    color: var(--bienestar-color-acento);
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.mensaje-universitario h3 {
+    color: var(--bienestar-color-principal);
+    font-size: 1.2em;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+.alerta-vital {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: var(--bienestar-color-alerta-fondo);
+    border-left: 5px solid var(--bienestar-color-alerta); 
+    border-radius: 4px;
+}
+
+.alerta-vital strong {
+    color: var(--bienestar-color-alerta);
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.alerta-vital ul {
+    list-style-type: '* ';
+    padding-left: 25px;
+    margin: 15px 0;
+}
+
+.alerta-vital li {
+    margin-bottom: 8px;
+}
+
+.lema-bienestar {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: var(--bienestar-color-principal);
+}
+
+
+@media (max-width: 600px) {
+    .content-container-bienestar {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .hero-image-bienestar {
+        height: 200px;
+    }
+    
+    .alerta-vital ul {
+        padding-left: 20px;
+    }
+}
